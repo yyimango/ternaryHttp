@@ -179,8 +179,8 @@ class PendingRequest
             function ($response) use ($url, $options, $isCheckResponse) {
                 $result = json_decode($response->getBody(), true);
                 if ($isCheckResponse &&
-                    ((isset($result['success']) && $result['success'] != true) ||
-                        (isset($result['status']) && $result['status'] != 200))
+                    ((isset($result['code']) && $result['code'] != 200) ||
+                        (isset($result['status']) && $result['status'] != 'success'))
                 ) {
                     throw new ServiceException(
                         $url,

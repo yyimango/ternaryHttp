@@ -1,0 +1,23 @@
+{
+    "name": "ternary/rpc",
+    "description": "ternary http client library",
+    "type": "l",
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "~6.3",
+        "tightenco/collect": "5.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ternary\\": "src/Ternary"
+        }
+    },
+    "authors": [
+        {
+            "name": "yuanyang",
+            "email": "yuanyang@geniuel.cn"
+        }
+    ],
+    "minimum-stability": "dev"
+}

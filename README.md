@@ -1,5 +1,11 @@
-<?php
+# ternaryRpc
+    This is a private warehouse service, feel free to use, problems need to be resolved
 
+
+## Test code
+
+
+```php
 require_once './vendor/autoload.php';
 
 use Ternary\Http\TernaryHttp;
@@ -12,6 +18,4 @@ $response = TernaryHttp::asJson()->setConnectTimeout(2)
     ->setRequestTimeout(5)->post($url, $params)->json();
 dd($response);
 
-
-
-
+```

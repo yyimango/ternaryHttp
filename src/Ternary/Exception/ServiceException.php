@@ -12,11 +12,12 @@ class ServiceException extends Exception
 
     private $response;
 
-    public function __construct(string $url, array $parameter, $response, string $message = "", int $code = 80001)
+    public function __construct(string $url, array $parameter, $response, string $message = "", int $code = 200)
     {
         $this->url = $url;
         $this->parameter = $parameter;
         $this->response = $response;
+
         parent::__construct($message, $code);
     }
 

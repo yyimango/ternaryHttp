@@ -1,7 +1,6 @@
 {
     "name": "ternary/rpc",
     "description": "ternary http client library",
-    "type": "l",
     "require": {
         "php": ">=7.3",
         "guzzlehttp/guzzle": "~7.4",
@@ -19,5 +18,5 @@
             "email": "yuanyang@geniuel.cn"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

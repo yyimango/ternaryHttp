@@ -5,7 +5,7 @@
     "require": {
         "php": ">=7.3",
         "guzzlehttp/guzzle": "~6.3",
-        "tightenco/collect": "~5.*"
+        "tightenco/collect": "5.*"
     },
     "license": "MIT",
     "autoload": {

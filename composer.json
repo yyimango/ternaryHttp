@@ -4,8 +4,8 @@
     "type": "l",
     "require": {
         "php": ">=7.3",
-        "guzzlehttp/guzzle": "~6.3",
-        "tightenco/collect": "5.*"
+        "guzzlehttp/guzzle": "~7.4",
+        "tightenco/collect": "v8.34.0"
     },
     "license": "MIT",
     "autoload": {
